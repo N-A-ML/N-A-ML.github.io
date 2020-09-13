@@ -1,0 +1,78 @@
+body {
+	background-color: #DDA0DD	;
+	line-height:30px;
+}
+
+
+header img{
+	border-radius:270px;
+	width:500px;
+	height:500px; 
+	border: 20px solid #9932CC;
+}
+
+
+main img{
+	border-radius:270px;
+	width:500px;
+	height:500px; 
+	border: 20px solid magenta;
+}
+
+@font-face{
+  font-family: "ONE PIECE";
+  src: url("onepiecefont.ttf") format("truetype");
+}
+header h1, main h2{
+	font-family: ONE PIECE, Helvetica, Arial, sans-seri;
+	font-size:50px;
+	color:black;
+}
+
+main, header{
+	max-width:800px;
+	margin:0 auto;
+}
+
+main img, header img{
+	max-width:100%;
+}
+
+
+main p, main ol, main ul{
+	font-size:25px;
+}
+
+a{
+	color:red;
+}
+a:hover{
+	background-color:salmon;
+	
+}
+
+footer {
+	color:white;
+	background-color:#f34607;
+	padding:50px;
+}
+
+footer a{
+	color:white;
+}
+
+footer p{
+	text-align:center;
+	margin:0;
+	font-size:25px;
+}
+footer a:hover{
+	opacity:.5;
+	background-color:transparent;
+}
+
+p.caption{
+	font-size:20px;
+	color:grey;
+	font-style:italic;
+}
